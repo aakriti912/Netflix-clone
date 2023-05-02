@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  top: 0px;
+  position: fixed;
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.contents {
+  display: flex;
+}
+.nav_black{
+    background-color: white;
+}
+.nav_logo {
+  position: fixed;
+  top: 20px;
+  width: 70px;
+  padding: 10px;
+}
+.nav_avatar {
+  position: fixed;
+  display: flex;
+  right: 0px;
+  top: 5px;
+
+  width: 40px;
+
+  padding: 10px;
+}
+.Links{
+  color: white;
+  display: flex;
+position: relative;
+left: 100px;
+top: 10px;
+
+
+
+
+}
+.Links a{
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 100;
+
+}
